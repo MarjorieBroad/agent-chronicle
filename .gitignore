@@ -1,0 +1,10 @@
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# User data
+*.backup
