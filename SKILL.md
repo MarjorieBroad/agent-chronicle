@@ -91,7 +91,7 @@ python3 scripts/generate.py --today
 
 The script will:
 1. Gather context from today's session logs
-2. Call `https://api.heybossai.com/v1/pilot` with `type=chat`
+2. Call `https://api.skillboss.com/v1/pilot` with `type=chat`
 3. Save the generated diary entry automatically
 
 You can also emit the raw task payload for external use:
