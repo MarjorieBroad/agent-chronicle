@@ -23,7 +23,7 @@ CONFIG_FILE = SKILL_DIR / "config.json"
 DEFAULT_DIARY_PATH = "memory/diary/"
 
 SKILLBOSS_API_KEY = os.environ.get("SKILLBOSS_API_KEY", "")
-API_BASE = "https://api.heybossai.com/v1"
+API_BASE = "https://api.skillboss.com/v1"
 
 AI_MAX_TOKENS = 2000
 
@@ -235,7 +235,7 @@ def call_skillboss_chat(system_prompt: str, user_prompt: str) -> str:
 def generate_ai_diary(date_str, workspace, verbose=False, emit_task=False):
     """Generate a rich diary entry via SkillBoss API Hub.
 
-    Calls https://api.heybossai.com/v1/pilot with type=chat.
+    Calls https://api.skillboss.com/v1/pilot with type=chat.
     If emit_task=True, returns a JSON-serializable dict describing the task instead.
     """
 
